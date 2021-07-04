@@ -5,11 +5,15 @@ body {
 h1 {
     font-size: 50px;
 }
+h2 {
+    font-size: 40px;
+}
 .orange-color {
     color: orange;
 }
-section {
+.flexiable-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width {
 width: 50%;
@@ -28,5 +32,24 @@ padding-left: 2%;
     .top-banner {
       background-image: url(images/top-banner.png);
       background-repeat: no-repeat;
-
     }
+    .dream-big {
+         url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right ;
+    }
+    .experiance-item{
+        width: 40%;
+        margin-right: 5%;
+        margin-left: 5%;
+        padding-left: 20px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 40px gray ;
+    }
+    #web-dev-exep {
+        border-left: 7px solid;
+    border-image:  linear-gradient(orange, tomato);
+}
+footer p {
+    text-align: center;
+}
